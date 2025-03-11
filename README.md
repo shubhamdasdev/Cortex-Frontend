@@ -33,42 +33,10 @@ Cortex follows a modern client-server architecture with a React-based frontend a
 ### High-Level Architecture
 ![HLA](/mermaid-diagram-2025-03-11-184958.png)
 
-    ```
-    graph TD;
-        A["Frontend (Next.js)"] --> B["API Layer"]
-        B --> C["Core Services"]
-        C --> D["Database"]
-        C --> E["AI Services"]
-        C --> F["File Storage"]
-        
-        subgraph "Frontend Components"
-            A1["UI Components"] --> A2["Context Providers"]
-            A2 --> A3["Custom Hooks"]
-            A3 --> A4["API Services"]
-        end
-        
-        subgraph "Backend Services"
-            C1["Workspace Service"]
-            C2["File Service"]
-            C3["AI Processing Service"]
-            C4["Authentication Service"]
-        end
-        
-        A --> A1
-        C --> C1
-        C --> C2
-        C --> C3
-        C --> C4
-
-```
-
-Thought for 3 seconds```markdown project="Cortex Mockup Design" file="README.md"
-...
-```
+    
 
 ### Data Flow
-
-
+![Data Flow](/mermaid-diagram-2025-03-11-185553.png)
 
 ### Component Structure
 
