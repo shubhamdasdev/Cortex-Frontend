@@ -3,17 +3,6 @@
 
 [Cortex](https://www.cortexx.info/)
 
-## Table of Contents
-
--   [Overview](https://v0.dev/chat/cortex-mockup-design-32GeGleDfo3#overview)
--   [System Architecture](https://v0.dev/chat/cortex-mockup-design-32GeGleDfo3#system-architecture)
--   [API Integrations](https://v0.dev/chat/cortex-mockup-design-32GeGleDfo3#api-integrations)
--   [Technologies](https://v0.dev/chat/cortex-mockup-design-32GeGleDfo3#technologies)
--   [Setup and Configuration](https://v0.dev/chat/cortex-mockup-design-32GeGleDfo3#setup-and-configuration)
--   [Development Workflow](https://v0.dev/chat/cortex-mockup-design-32GeGleDfo3#development-workflow)
--   [Deployment](https://v0.dev/chat/cortex-mockup-design-32GeGleDfo3#deployment)
--   [Contributing](https://v0.dev/chat/cortex-mockup-design-32GeGleDfo3#contributing)
-
 ## Overview
 
 Cortex is an intelligent workspace platform that integrates document editing, data analysis, and AI-powered insights into a unified interface. The platform enables users to work with various file types (Excel, Markdown, Python, Chat) while providing real-time AI assistance and insights.
