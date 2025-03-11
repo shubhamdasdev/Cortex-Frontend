@@ -31,7 +31,7 @@ Cortex is an intelligent workspace platform that integrates document editing, da
 Cortex follows a modern client-server architecture with a React-based frontend and a RESTful API backend.
 
 ### High-Level Architecture
-https://github.com/shubhamdasdev/Cortex-Frontend/blob/2e577e21c694ad934e310ce9b36863f97120fd76/mermaid-diagram-2025-03-11-184958.png
+![HLA](/mermaid-diagram-2025-03-11-184958.png)
 
     ```
     graph TD;
@@ -68,20 +68,7 @@ Thought for 3 seconds```markdown project="Cortex Mockup Design" file="README.md"
 
 ### Data Flow
 
-```mermaid
-Data Flow.download-icon {
-            cursor: pointer;
-            transform-origin: center;
-        }
-        .download-icon .arrow-part {
-            transition: transform 0.35s cubic-bezier(0.35, 0.2, 0.14, 0.95);
-             transform-origin: center;
-        }
-        button:has(.download-icon):hover .download-icon .arrow-part, button:has(.download-icon):focus-visible .download-icon .arrow-part {
-          transform: translateY(-1.5px);
-        }
-        AI ServicesDatabaseBackend ServicesAPI ServicesCustom HooksContext ProvidersUI ComponentsUserAI ServicesDatabaseBackend ServicesAPI ServicesCustom HooksContext ProvidersUI ComponentsUser#mermaid-diagram-rc48{font-family:var(--font-geist-sans);font-size:12px;fill:#000000;}#mermaid-diagram-rc48 .error-icon{fill:#552222;}#mermaid-diagram-rc48 .error-text{fill:#552222;stroke:#552222;}#mermaid-diagram-rc48 .edge-thickness-normal{stroke-width:1px;}#mermaid-diagram-rc48 .edge-thickness-thick{stroke-width:3.5px;}#mermaid-diagram-rc48 .edge-pattern-solid{stroke-dasharray:0;}#mermaid-diagram-rc48 .edge-thickness-invisible{stroke-width:0;fill:none;}#mermaid-diagram-rc48 .edge-pattern-dashed{stroke-dasharray:3;}#mermaid-diagram-rc48 .edge-pattern-dotted{stroke-dasharray:2;}#mermaid-diagram-rc48 .marker{fill:#666;stroke:#666;}#mermaid-diagram-rc48 .marker.cross{stroke:#666;}#mermaid-diagram-rc48 svg{font-family:var(--font-geist-sans);font-size:12px;}#mermaid-diagram-rc48 p{margin:0;}#mermaid-diagram-rc48 .actor{stroke:hsl(0, 0%, 83%);fill:#eee;}#mermaid-diagram-rc48 text.actor>tspan{fill:#333;stroke:none;}#mermaid-diagram-rc48 .actor-line{stroke:hsl(0, 0%, 83%);}#mermaid-diagram-rc48 .messageLine0{stroke-width:1.5;stroke-dasharray:none;stroke:#333;}#mermaid-diagram-rc48 .messageLine1{stroke-width:1.5;stroke-dasharray:2,2;stroke:#333;}#mermaid-diagram-rc48 #arrowhead path{fill:#333;stroke:#333;}#mermaid-diagram-rc48 .sequenceNumber{fill:white;}#mermaid-diagram-rc48 #sequencenumber{fill:#333;}#mermaid-diagram-rc48 #crosshead path{fill:#333;stroke:#333;}#mermaid-diagram-rc48 .messageText{fill:#333;stroke:none;}#mermaid-diagram-rc48 .labelBox{stroke:hsl(0, 0%, 83%);fill:#eee;}#mermaid-diagram-rc48 .labelText,#mermaid-diagram-rc48 .labelText>tspan{fill:#333;stroke:none;}#mermaid-diagram-rc48 .loopText,#mermaid-diagram-rc48 .loopText>tspan{fill:#333;stroke:none;}#mermaid-diagram-rc48 .loopLine{stroke-width:2px;stroke-dasharray:2,2;stroke:hsl(0, 0%, 83%);fill:hsl(0, 0%, 83%);}#mermaid-diagram-rc48 .note{stroke:#999;fill:#666;}#mermaid-diagram-rc48 .noteText,#mermaid-diagram-rc48 .noteText>tspan{fill:#fff;stroke:none;}#mermaid-diagram-rc48 .activation0{fill:#f4f4f4;stroke:#666;}#mermaid-diagram-rc48 .activation1{fill:#f4f4f4;stroke:#666;}#mermaid-diagram-rc48 .activation2{fill:#f4f4f4;stroke:#666;}#mermaid-diagram-rc48 .actorPopupMenu{position:absolute;}#mermaid-diagram-rc48 .actorPopupMenuPanel{position:absolute;fill:#eee;box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);filter:drop-shadow(3px 5px 2px rgb(0 0 0 / 0.4));}#mermaid-diagram-rc48 .actor-man line{stroke:hsl(0, 0%, 83%);fill:#eee;}#mermaid-diagram-rc48 .actor-man circle,#mermaid-diagram-rc48 line{stroke:hsl(0, 0%, 83%);fill:#eee;stroke-width:2px;}#mermaid-diagram-rc48 .flowchart-link{stroke:hsl(var(--gray-400));stroke-width:1px;}#mermaid-diagram-rc48 .marker,#mermaid-diagram-rc48 marker,#mermaid-diagram-rc48 marker *{fill:hsl(var(--gray-400))!important;stroke:hsl(var(--gray-400))!important;}#mermaid-diagram-rc48 .label,#mermaid-diagram-rc48 text,#mermaid-diagram-rc48 text>tspan{fill:hsl(var(--black))!important;color:hsl(var(--black))!important;}#mermaid-diagram-rc48 .background,#mermaid-diagram-rc48 rect.relationshipLabelBox{fill:hsl(var(--white))!important;}#mermaid-diagram-rc48 .entityBox,#mermaid-diagram-rc48 .attributeBoxEven{fill:hsl(var(--gray-150))!important;}#mermaid-diagram-rc48 .attributeBoxOdd{fill:hsl(var(--white))!important;}#mermaid-diagram-rc48 .label-container,#mermaid-diagram-rc48 rect.actor{fill:hsl(var(--white))!important;stroke:hsl(var(--gray-400))!important;}#mermaid-diagram-rc48 line{stroke:hsl(var(--gray-400))!important;}#mermaid-diagram-rc48 :root{--mermaid-font-family:var(--font-geist-sans);}Interacts with interfaceUpdates stateTriggers data operationsMakes API requestsSends HTTP requestsQueries/updates dataRequests AI processingReturns processed dataReturns responseUpdates local stateUpdates global stateRe-renders componentsShows updated interface
-```
+
 
 ### Component Structure
 
