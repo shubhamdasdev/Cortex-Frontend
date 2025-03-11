@@ -31,7 +31,7 @@ Cortex is an intelligent workspace platform that integrates document editing, da
 Cortex follows a modern client-server architecture with a React-based frontend and a RESTful API backend.
 
 ### High-Level Architecture
-
+https://github.com/shubhamdasdev/Cortex-Frontend/blob/2e577e21c694ad934e310ce9b36863f97120fd76/mermaid-diagram-2025-03-11-184958.png
 
     ```
     graph TD;
